@@ -42,6 +42,9 @@ ul{
     font-size: 2rem;
 }
 @media(width:750px){
+    .link{
+        flex-direction: column;
+    }
     div{
 
     }
