@@ -46,6 +46,6 @@ while(true){
 
 }
 for(let j = 0;j<i;j++){
-   prompt(tabela[0][j])
+   
     document.getElementById('ranking').textContent =  document.getElementById('ranking').textContent +  `${tabela[0][j]} ${tabela[1][j]} pontos ; `
 }
