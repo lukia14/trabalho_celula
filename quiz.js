@@ -23,6 +23,7 @@ while(true){
         pontos++
     }
      tabela[1][i] = pontos
+     tabela[0][i] = nome
     i++
    
     while(true){
