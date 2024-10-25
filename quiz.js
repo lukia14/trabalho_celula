@@ -1,5 +1,6 @@
 let pontuacao = []
 let pontos = 0
+nome = []
 tabela = [nome,pontuacao]
 let i = 0
 while(true){
