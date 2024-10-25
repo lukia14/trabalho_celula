@@ -18,10 +18,13 @@ while(true){
     letra a) bolo de bolo
     letra b) mitocondria
     letra c) parede celular
-    letra d) lisossomo` )
+    letra d) ` )
     if(Q2 == 'a'){
         pontos++
     }
+     tabela[1][i] = pontos
+    i++
+   
     while(true){
         continuar = prompt('deseja continuar? s ou n')
         if(continuar == 's' || continuar == 'n'){
@@ -31,10 +34,9 @@ while(true){
     if(continuar == 'n'){
         break
     }   
-    tabela[1][i] = pontos
-    i++
-}
+
 for(let j = 0;j<i;j++){
    
     document.getElementById('ranking').textContent =  document.getElementById('ranking').textContent +  `${tabela[0][j]} ${tabela[1][j]} pontos ; `
+}
 }
